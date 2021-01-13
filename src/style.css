@@ -3,36 +3,26 @@ body {
   margin: 20px;
 }
 
-.yellowblock {
+.yellow-block {
   background-color: #ffa500;
-  border: 1px solid #e95d49;
-  padding: 10px;
 }
 
-.blueblock {
-  padding: 10px ;
+.blue-block {
   width: 350px;
-  border: #e95d49 solid 1px;
   background-color: #308dc0;
 }
 
 .block {
   box-sizing: border-box;
-}
-
-.middleblock {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.grayblock {
-  text-align: left;
-  padding: 10px;
-  background-color: #ddd;
-  border: #e95d49 solid 1px;
-}
-
-/* .border {
   border: 1px solid #e95d49;
-   
-} */
+  padding: 10px;
+}
+
+.middle-block {
+  margin: 40px auto 40px 0;
+}
+
+.gray-block {
+  text-align: left;
+  background-color: #ddd;
+}
